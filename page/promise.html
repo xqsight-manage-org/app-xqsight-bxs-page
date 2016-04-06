@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!--<link rel="shortcut icon" href="/favicon.ico">-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>半小时电脑科技</title>
+    <link rel="stylesheet" href="../static/light7/css/light7.css">
+    <link rel="stylesheet" href="../static/light7/css/light7-swiper.css">
+    <style>
+        .list-block .item-inner{
+            padding: 0px !important;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <h1 class='title'>预约维修</h1>
+    </header>
+    <p/>
+    <div class="content">
+        <div id="promiseForm" class="list-block" style="margin: 0;">
+            <ul>
+
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">姓名</div>
+                            <div class="item-input">
+                                <input type="text" id="userName" placeholder="姓名" value="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">性别</div>
+                            <div class="item-input">
+                                <select id="sex">
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                    <option value="0">保密</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">时间</div>
+                            <div class="item-input">
+                                <input type="text" id="promiseTime" placeholder="预约时间" value="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">地址</div>
+                            <div class="item-input">
+                                <input type="text" id="promiseAddress" placeholder="地址" value="甘肃 兰州 城关区" >
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">详细地址</div>
+                            <div class="item-input">
+                                <input type="text" id="promiseAddrDetail" placeholder="详细地址" value="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="content-block">
+            <a id="btn_save" class="button button-big button-fill button-success">预约</a>
+        </div>
+    </div>
+</div>
+
+<script src="../static/js/jquery-2.1.4.js"></script>
+<script src="../static/js/pub.js"></script>
+
+<script src="../static/light7/js/light7.js"></script>
+<script src="../static/light7/js/light7-swiper.js"></script>
+<script src="../static/light7/js/i18n/cn.js"></script>
+
+<script src="../static/light7/js/light7-city-picker.js"></script>
+<script src="promise.js"></script>
+
+</body>
+</html>
